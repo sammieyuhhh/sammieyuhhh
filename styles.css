@@ -1,19 +1,33 @@
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,b2dcff+80,b2dcff+80,a1dbff+100 */
-background: linear-gradient(to bottom,  #f0f9ff 0%,#cbebff 47%,#b2dcff 80%,#b2dcff 80%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-<!--[if gte IE 9]>
-  <style type="text/css">
-    .gradient {
-       filter: none;
-    }
-  </style>
-<![endif]-->
-/* taken from a neocities website */
+html { min-height: 100%; }
 body {
-  background-color: white;
-  color: black;
-  font-family: Helvetica;
+  margin: 0; padding: 8px; min-height: 100vh;
+  color: #000033;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 16px;
+  background-color: #a1dbff;
+  background-image: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 47%, #b2dcff 80%, #a1dbff 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-white-text {
-color: white;
+a:link    { color: #0000EE; }
+a:visited { color: #551A8B; }
+a:hover   { color: #FF0000; }
+a:active  { color: #FF0000; }
+h1, h2 { color: #000080; font-weight: bold; }
+img { image-rendering: pixelated; }
+hr.rainbow {
+  height: 6px; border: 0;
+  background: linear-gradient(to right, red, orange, yellow, lime, cyan, blue, magenta);
 }
+.blink { animation: blink 1s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+.white-text { color: #FFFFFF; }
+.navbar td { background: #D4ECFF; border: 2px outset #FFFFFF; text-align: center; padding: 4px 6px; }
+.navbar a { font-weight: bold; }
+.btn88 {
+  display: inline-block; width: 88px; height: 31px; line-height: 14px; padding-top: 2px;
+  border: 2px outset #C0C0C0; background: #C0C0C0; color: #000;
+  font: bold 10px Arial, sans-serif; text-align: center; text-decoration: none;
+  vertical-align: middle; box-sizing: border-box;
+}
+@media (prefers-reduced-motion: reduce) { .blink { animation: none; } }
