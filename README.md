@@ -1,7 +1,24 @@
+<style>
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,b2dcff+80,b2dcff+80,a1dbff+100 */
+background: linear-gradient(to bottom,  #f0f9ff 0%,#cbebff 47%,#b2dcff 80%,#b2dcff 80%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+/* taken from a neocities website */
+body {
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+}
+
+white-text {
+color: white;
+}
+</style>
+
 [Home](https://sammieyuhhh.github.io/sammieyuhhh/)
 ### hi im sammie, im he/him
-
-<!---
-sammieyuhhh/sammieyuhhh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
