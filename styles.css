@@ -22,9 +22,11 @@ table.box { margin: 0 auto 12px auto; background: #FFFFFF; border: 4px solid #00
 table.name   { width: 540px; }
 table.navbar { width: 670px; }
 table.main   { width: 620px; }
+table.links  { width: 630px; }
 table.name td   { height: 90px; text-align: center; }
 table.navbar td { padding: 8px 4px; text-align: center; font-weight: bold; }
 table.main td   { height: 480px; vertical-align: top; padding: 12px 16px; }
+table.links td  { height; 100px; vertical-align; top; padding; 12px 16px; }
 
 hr.rainbow {
   height: 6px; border: 0;
