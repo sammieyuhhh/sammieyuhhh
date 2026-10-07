@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
-html { min-height: 100%; }
+
+html { 
+  min-height: 100%; 
+}
+
 body {
-  margin: 0; padding: 16px 8px; min-height: 100vh;
+  margin: 0; 
+  padding: 16px 8px; 
+  min-height: 100vh;
   color: #000033;
   font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", sans-serif;
   font-size: 16px;
@@ -9,37 +15,70 @@ body {
   background: url("https://github.com/sammieyuhhh/sammieyuhhh/blob/website/assets/background.jpg?raw=true");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
+
 a:link    { color: #0000EE; }
 a:visited { color: #551A8B; }
 a:hover   { color: #FF0000; }
 a:active  { color: #FF0000; }
-h1, h2 { color: #000080; font-weight: bold; margin: 0.3em 0; }
-img { image-rendering: pixelated; }
 
+h1, h2 { 
+  color: #000080; 
+  font-weight: bold; 
+  margin: 0.3em 0; 
+}
 
-table.box { margin: 0 auto 12px auto; background: #FFFFFF; border: 4px solid #000000; border-collapse: collapse; }
+img { 
+  image-rendering: pixelated; 
+}
+
+table.box { 
+  margin: 0 auto 12px auto; 
+  background: #FFFFFF; 
+  border: 4px solid #000000; 
+  border-collapse: collapse; 
+}
+
 table.name   { width: 540px; }
 table.navbar { width: 670px; }
 table.main   { width: 620px; }
 table.links  { width: 630px; }
 table.ads    { width: 400px; }
+
 table.name td   { height: 90px; text-align: center; }
 table.navbar td { padding: 8px 4px; text-align: center; font-weight: bold; }
 table.main td   { height: 480px; vertical-align: top; padding: 12px 16px; }
 table.links td  { height: 100px; vertical-align: top; padding: 12px 16px; }
-table.ads td { height: 400px; vertical-align; top; padding: 12px 16px; }
+table.ads td    { height: 400px; vertical-align: top; padding: 12px 16px; }
 
 hr.rainbow {
-  height: 6px; border: 0;
+  height: 6px; 
+  border: 0;
   background: linear-gradient(to right, red, orange, yellow, lime, cyan, blue, magenta);
 }
-.blink { animation: blink 1s steps(2, start) infinite; }
-@keyframes blink { to { visibility: hidden; } }
-.btn88 {
-  display: inline-block; width: 88px; height: 31px; padding-top: 2px; box-sizing: border-box;
-  border: 2px outset #C0C0C0; background: #C0C0C0; color: #000;
-  font: bold 10px/14px Arial, sans-serif; text-align: center; vertical-align: middle;
+
+.blink { 
+  animation: blink 1s steps(2, start) infinite; 
 }
-@media (prefers-reduced-motion: reduce) { .blink { animation: none; } }
+
+@keyframes blink { 
+  to { visibility: hidden; } 
+}
+
+.btn88 {
+  display: inline-block; 
+  width: 88px; 
+  height: 31px; 
+  padding-top: 2px; 
+  box-sizing: border-box;
+  border: 2px outset #C0C0C0; 
+  background: #C0C0C0; 
+  color: #000;
+  font: bold 10px/14px Arial, sans-serif; 
+  text-align: center; 
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: reduce) { 
+  .blink { animation: none; } 
+}
