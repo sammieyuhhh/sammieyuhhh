@@ -3,73 +3,84 @@
 <head>
 <meta charset="utf-8">
 <title>My Homepage :3</title>
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <center>
 
-<!-- BOX 1: navbar -->
-<center>  
-<table class="box navbar" align="center">
+<!-- LAYOUT TABLE: one wrapper holds everything so the boxes can't drift apart -->
+<table class="layout" align="center" cellspacing="0" cellpadding="0">
+
+  
   <tr>
-    <td><a href="index.html">Home</a></td>
-    <td><a href="pages/testing.html">Sandbox</a></td>
-    <td><a href="pages/about.html">About Me</a></td>
-    <td><a href="https://sammie.atabook.org/">Guestbook</a></td>
-    <td><a href="ftp/index.html">FTP</a></td>
+    <td colspan="2" class="navcell">
+      <table class="box navbar" cellspacing="0">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="pages/testing.html">Sandbox</a></td>
+          <td><a href="pages/about.html">About Me</a></td>
+          <td><a href="https://sammie.atabook.org/">Guestbook</a></td>
+          <td><a href="ftp/index.html">FTP</a></td>
+        </tr>
+      </table>
+    </td>
   </tr>
-</table>
-  
-<!-- BOX 5: ads and links -->
-</center>
-<table class="box ads" align="left"> 
-  <tr>
-    <td>
-      <h2 id="ads">cool ads :D</h2>
-      <img src="https://ezrakruger.cc/adbank/blob/2aaae0cd4a10487859eef504026ad460deced26023e346960e9c5404e0b97f8e.gif" alt="Save Deskspace Super Affordable LCD Displays Starting at $399.95" width="160" height="65" style="image-rendering:pixelated">
-      <img src="https://ezrakruger.cc/adbank/blob/7543ad32dc14a881a1ee6839d60604aa6e808d6ae034c6b07caf3c18b3f70680.gif" alt="InteretSecwrlyrooo" width="100" height="100" style="image-rendering:pixelated">
-      <a href="https://frutigeraeroarchive.org/"><img src="https://frutigeraeroarchive.org/images/ads/fa_archive_200_40.png" alt="Frutiger Aero Archive"/></a> 
-    </td>  
-  </tr>  
-</table>  
-  
-<!-- BOX 2: name -->
-<table class="box name" align="center">
-  <tr><td><h1 class="blink">WELCOME TO MY HOMEPAGE</h1></td></tr>
-</table>
-  
 
-<!-- BOX 3: main content -->
-<table class="box main" align="center">
+  
   <tr>
-    <td>
-      <marquee scrollamount="5">Thanks for stopping by!! Please sign my guestbook!! Best viewed with your eyes!!</marquee>
-      <hr class="rainbow">
+    <!-- LEFT COLUMN: ads -->
+    <td class="leftcol" valign="top">
+      <table class="box ads" cellspacing="0">
+        <tr>
+          <td>
+            <h2 id="ads">cool ads :D</h2>
+            <img src="https://ezrakruger.cc/adbank/blob/2aaae0cd4a10487859eef504026ad460deced26023e346960e9c5404e0b97f8e.gif" alt="Save Deskspace Super Affordable LCD Displays Starting at $399.95" width="160" height="65" style="image-rendering:pixelated">
+            <img src="https://ezrakruger.cc/adbank/blob/7543ad32dc14a881a1ee6839d60604aa6e808d6ae034c6b07caf3c18b3f70680.gif" alt="InteretSecwrlyrooo" width="100" height="100" style="image-rendering:pixelated">
+            <a href="https://frutigeraeroarchive.org/"><img src="https://frutigeraeroarchive.org/images/ads/fa_archive_200_40.png" alt="Frutiger Aero Archive"/></a>
+          </td>
+        </tr>
+      </table>
+    </td>
 
-      <p>welcome to my website, there are stuff to look at but the site is unfinished,</p>
-      <p>This page is <b>UNDER CONSTRUCTION</b>. Check back soon!!!</p>
+    
+    <td class="rightcol" valign="top">
+
+      <table class="box name" cellspacing="0">
+        <tr><td><h1 class="blink">WELCOME TO MY HOMEPAGE</h1></td></tr>
+      </table>
+
+      <table class="box main" cellspacing="0">
+        <tr>
+          <td>
+            <marquee scrollamount="5">Thanks for stopping by!! Please sign my guestbook!! Best viewed with your eyes!!</marquee>
+            <hr class="rainbow">
+
+            <p>welcome to my website, there are stuff to look at but the site is unfinished,</p>
+            <p>This page is <b>UNDER CONSTRUCTION</b>. Check back soon!!!</p>
+          </td>
+        </tr>
+      </table>
+
+      <table class="box links" cellspacing="0">
+        <tr>
+          <td>
+            <h2 id="links">Cool Links</h2>
+            <ul>
+              <li><a href="https://github.com/sammieyuhhh">My GitHub</a></li>
+              <li><a href="https://sammieyuhhh.tumblr.com/">My Tumblr</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
     </td>
   </tr>
 </table>
 
-<!-- BOX 4: links -->
-<table class="box links" align="center"> 
-  <tr>
-    <td>
-      <h2 id="links">Cool Links</h2>
-      <ul>
-        <li><a href="https://github.com/sammieyuhhh">My GitHub</a></li>
-        <li><a href="https://sammieyuhhh.tumblr.com/">My Tumblr</a></li>
-      </ul>
-    </td>  
-  </tr>  
-</table>
-
-
 <!-- Footer -->
 <center>
-  <hr class="rainbow" style="width: 670px;">
+  <hr class="rainbow" style="width: 900px; max-width: 95%;">
   <small>Best viewed in Internet Explorer 8 at 800x600. Last updated: 10/07/2026</small>
 </center>
 
