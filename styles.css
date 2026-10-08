@@ -32,7 +32,7 @@ img {
   image-rendering: pixelated; 
 }
  
-/* Outer layout table: one centered unit, so the columns always stay together */
+
 table.layout {
   margin: 0 auto;
   border-collapse: separate;
@@ -40,11 +40,11 @@ table.layout {
 }
  
 td.navcell  { padding-bottom: 12px; }
-td.leftcol  { width: 300px; padding-right: 12px; }   /* <- 12px is the gap between ads and main */
+td.leftcol  { width: 300px; padding-right: 12px; }  
 td.rightcol { width: 630px; }
  
 table.box {
-  width: 100%;                 /* every box fills its column, so edges line up */
+  width: 100%;                 
   margin: 0 0 12px 0;
   background: #FFFFFF;
   border: 4px solid #000000;
