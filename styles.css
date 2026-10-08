@@ -56,6 +56,7 @@ table.navbar td { padding: 8px 4px; text-align: center; font-weight: bold; }
 table.main td   { height: 480px; vertical-align: top; padding: 12px 16px; }
 table.links td  { height: 100px; vertical-align: top; padding: 12px 16px; }
 table.ads td    { height: 750px; vertical-align: top; padding: 12px 16px; }
+table.bvinmf3@1680x1050 td { height: 100px; vertical-align: top; padding: 12px 16px; }
  
 hr.rainbow {
   height: 6px; 
