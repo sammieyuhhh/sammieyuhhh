@@ -42,6 +42,7 @@ table.layout {
 td.navcell  { padding-bottom: 12px; }
 td.leftcol  { width: 300px; padding-right: 12px; }  
 td.rightcol { width: 630px; }
+td.footer { width: 50px; }
  
 table.box {
   width: 100%;                 
